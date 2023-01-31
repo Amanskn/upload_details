@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Details</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <main>
+        <div id="input-container">
+            <div class="individual" style="text-align: center;">
+                <h2>Add Student Data</h2>
+            </div>
+            <div class="individual">
+                <span>Roll No. :</span><input type="text" id="rno" required>
+            </div>
+            <div class="individual">
+                <span>Name :</span><input type="text" id="name" >
+            </div>
+            <div class="individual">
+                <span>Marks :</span><input type="number" id="marks" >
+            </div>
+            <div class="individual">
+                <input id="add-btn" type="submit" value="Add Details">
+            </div>
+            
+        </div>
+    
+        <!-- This is the container to show the details being uploaded by the user-->
+        <div id="show-container">
+            
+    
+        </div>
+    </main>
+    <!-- it's a jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
