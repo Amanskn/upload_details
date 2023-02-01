@@ -41,10 +41,10 @@ input{
 /* this is the heading */
 h2{
     width: 100%;
-    border: 2px solid /black;
+    /* border: 2px solid black; */
     font-size: 2rem;
     /* color: aqua; */
-    /* text-align: center; */
+    text-align: center;
 }
 /* this is the add button */
 #add-btn{

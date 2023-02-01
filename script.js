@@ -16,11 +16,16 @@ var showDetails=function(){
         num=0;
                 
     }
-   
+   if(rno.val()==''||name_.val()==''||marks.val()==''){
+    alert("Please fill all the fields");
+   }
+   else{
     console.log(num);
     show.append(`<div class="student-details" style=" background-color:${color};">
     Roll no - <span>${rno.val()}</span> , <span>${name_.val()}</span> has scored <span>${marks.val()}</span> marks.
-</div>`)
+    </div>`)
+   }
+    
     
 }
 
